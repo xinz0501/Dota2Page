@@ -1,0 +1,868 @@
+html body {
+  width: 100%;
+  height: 100%;
+  background-image: url(./dot2.main.bg.png);
+  overflow: hidden;
+}
+
+#main a {
+  text-decoration: none;
+}
+
+#dota2_nav_container {
+  width: 1520px;
+  height: 80px;
+  background-image: url(./data2.home.nav.bg.png);
+}
+
+#a1 {
+  display: block;
+  margin: 20px 30px 0 160px;
+  width: 260px;
+  height: 40px;
+  background: url(dota2.home.log.png) center top no-repeat;
+  text-indent: -9999px;
+  float: left;
+}
+
+#nav_a {
+  width: 650px;
+  height: 80px;
+  float: left;
+}
+
+.link_div {
+  width: 78px;
+  padding: 20px 7px;
+  text-align: center;
+  display: block;
+  float: left;
+}
+
+.link_div a {
+  display: block;
+}
+
+.link_div span {
+  font-size: 16px;
+  display: block;
+}
+
+.link_div .link_div_e {
+  font-size: 9px;
+  margin-top: 2px;
+  line-height: 16px;
+  transform: scale(0.75);
+}
+
+#dota2_user {
+  width: 300px;
+  height: 80px;
+  float: right;
+}
+
+#dota2_user .nav-avatar {
+  width: 50px;
+  height: 50px;
+  border: 1px solid grey;
+  border-radius: 50%;
+  background: no-repeat;
+  background-image: url(./icons.png);
+  background-position: 13px -451px;
+  margin-left: -90px;
+  margin-top: 13px;
+}
+
+#dota2_user #users {
+  margin-top: -50px;
+  margin-left: -30px;
+  width: 160px;
+  height: 80px;
+}
+
+#dota2_user #users #login {
+  display: block;
+  font-size: 20px;
+  color: white;
+}
+
+#dota2_user #users #login a {
+  color: #00b7f4;
+}
+
+#dota2_user #users #login_next {
+  display: block;
+  font-size: 13px;
+}
+
+#dota2_image {
+  width: 100%;
+  height: 800px;
+  background-image: url(./bg-index.jpg);
+  background-position: -200px;
+}
+
+#main {
+  margin: auto;
+  width: 1200px;
+}
+
+.test {
+  height: 50px;
+  width: 200px;
+}
+
+#dota2_nav_select {
+  width: 1200px;
+  height: 95px;
+}
+
+#left_select {
+  width: 750px;
+  height: 95px;
+  float: left;
+}
+
+#left_select #left_button_recharge {
+  display: block;
+  width: 250px;
+  height: 95px;
+  background: url(./u_left_buttons.png) no-repeat;
+  background-position: 0 1px;
+  float: left;
+}
+
+#left_select #left_button_download {
+  display: block;
+  width: 250px;
+  height: 95px;
+  background: url(./u_left_buttons.png) no-repeat;
+  background-position: -250px 1px;
+  float: left;
+}
+
+#left_select #left_button_signup {
+  display: block;
+  width: 250px;
+  height: 95px;
+  background: url(./u_left_buttons.png) no-repeat;
+  background-position: -500px 1px;
+  float: left;
+}
+
+#right_select {
+  width: 450px;
+  height: 95px;
+  float: left;
+}
+
+#right_select #right_button_source {
+  width: 140px;
+  height: 95px;
+  background: url(./u_right_buttons.png) no-repeat;
+  background-position: 0 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  float: left;
+}
+
+#right_select #right_button_steps {
+  width: 140px;
+  height: 95px;
+  background: url(./u_right_buttons.png) no-repeat;
+  background-position: -140px 0;
+  margin-right: 10px;
+  float: left;
+}
+
+#right_select #right_button_min {
+  width: 140px;
+  height: 95px;
+  background: url(./u_right_buttons.png) no-repeat;
+  background-position: -280px 0;
+  float: left;
+}
+
+#dota2_message {
+  width: 1200px;
+  height: 635px;
+}
+
+#left_message {
+  width: 750px;
+  height: 635px;
+  float: left;
+}
+
+#left_message #m_title {
+  width: 750px;
+  height: 35px;
+}
+
+#left_message #m_title #m_title_left {
+  width: 112px;
+  height: 35px;
+  float: left;
+}
+
+#left_message #m_title #m_title_right {
+  width: 37px;
+  height: 28px;
+  float: right;
+}
+
+#left_message #m_title #m_title_right #m_title_right_image {
+  width: 10px;
+  height: 10px;
+  background: url(./data2.home.icons.png) no-repeat;
+  background-position: -3px -789px;
+  float: right;
+  margin-top: -12px;
+}
+
+#left_message #m_title #m_title_right a {
+  font-size: 12px;
+  color: white;
+  display: block;
+  width: 25px;
+  height: 16px;
+  line-height: 16px;
+  text-align: right;
+  margin-top: 10px;
+}
+
+#left_message #m_title #m_title_left #m_title_left_image {
+  width: 40px;
+  height: 35px;
+  background: url(./data2.home.icons.png) no-repeat;
+  background-position: 0 0;
+  float: left;
+}
+
+#left_message #m_title #m_title_left span {
+  line-height: 35px;
+  font-size: 18px;
+  color: white;
+}
+
+#left_message #m_context {
+  width: 750px;
+  height: 590px;
+  margin-top: 10px;
+}
+
+#left_message #m_context .u_tabs .u_tab {
+  color: white;
+  border: 1px solid grey;
+  width: 148px;
+  height: 37px;
+  line-height: 37px;
+  text-align: center;
+  float: left;
+  margin-bottom: 30px;
+}
+
+#main .u_lists h3 {
+  font-size: 24px;
+  color: #00c0ff;
+  margin-bottom: 10px;
+}
+
+#main .u_lists .u_recommend {
+  display: block;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+#main .u_contents .u_item_avatar {
+  float: left;
+  width: 200px;
+  height: 120px;
+  overflow: hidden;
+  margin-right: 20px;
+}
+
+#main .u_contents .u_item_avatar img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+#main .u_contents .u_msg {
+  line-height: 22px;
+  margin-right: 10px;
+}
+
+#main .u_contents .u_msg p {
+  color: white;
+}
+
+#main .u_contents .u_date {
+  color: white;
+  font-size: 12px;
+  display: block;
+  margin-top: 8px;
+}
+
+#main .u_lists .list {
+  display: block;
+  float: left;
+  width: 750px;
+}
+
+#main .u_lists .list .u_dot {
+  width: 10px;
+  height: 10px;
+  background: url(./data2.home.icons.png);
+  background-position: -3px -803px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+
+#main .u_lists .list p {
+  padding-left: 15px;
+  line-height: 50px;
+  color: white;
+  font-size: 17px;
+}
+
+#main .u_lists .list .u_date {
+  display: block;
+  float: right;
+  color: white;
+  margin-right: 20px;
+  margin-top: -32px;
+  font-size: 10px;
+}
+
+#main .u_lists .list:hover p {
+  color: #00c0ff;
+}
+
+#main .u_lists .list:hover span {
+  color: #00c0ff;
+}
+
+#right_message {
+  width: 450px;
+  height: 635px;
+  float: left;
+}
+
+#top_right_message {
+  width: 450px;
+  height: 255px;
+}
+
+.u_hotvideo .u_left {
+  display: block;
+  width: 120px;
+  height: 35px;
+}
+
+.u_left .u_icon {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background: url(./data2.home.icons.png) no-repeat;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.u_icon.u_icon_hotvideo {
+  background-position: -40px -1px;
+}
+
+.u_left span {
+  font-size: 18px;
+  color: white;
+  vertical-align: middle;
+}
+
+.u_content .u_video {
+  width: 420px;
+  height: 202px;
+}
+
+.u_content .u_video img {
+  margin-left: 10px;
+  width: 440px;
+  margin-top: 10px;
+}
+
+#buttom_right_message {
+  width: 450px;
+  height: 380px;
+  margin-top: 20px;
+}
+
+.u_ratecenter .u_left {
+  float: left;
+  width: 125px;
+  height: 35px;
+}
+
+.u_icon.u_icon_racecenter {
+  background-position: -3px -43px;
+}
+
+.u_ratecenter .u_right {
+  float: right;
+  width: 39px;
+  height: 28px;
+  margin-top: 7px;
+}
+
+.u_right .u_icon {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: url(./data2.home.icons.png);
+  vertical-align: middle;
+}
+
+.u_icon.u_icon_more {
+  background-position: -3px -789px;
+}
+
+.u_ratecenter .u_right a {
+  color: #ccc;
+  font-size: 12px;
+}
+
+.u_ratecenter .u_content img {
+  margin-top: 10px;
+  clear: both;
+  margin-left: 10px;
+  width: 440px;
+}
+
+#dota2_play {
+  width: 1200px;
+  height: 535px;
+}
+
+#left_play {
+  width: 750px;
+  height: 535px;
+  float: left;
+}
+
+.u_title .u_left {
+  width: 125px;
+  height: 35px;
+  float: left;
+  margin-left: -5px;
+}
+
+.u_icon.u_icon_activity {
+  background-position: -3px -85px;
+}
+
+.u_activity_list .u_activity_type {
+  float: left;
+  margin-right: 15px;
+  font-size: 14px;
+  color: #999999;
+  width: 140px;
+  height: 40px;
+  text-align: center;
+  margin-top: 7px;
+  position: relative;
+  cursor: pointer;
+}
+
+.u_activity_type .u_border {
+  border-right: 1px solid #333333;
+}
+
+.u_activity_type .u_icon {
+  background: url(./data2.home.icons.png);
+}
+
+.u_icon.u_icon_ellipsehot_act {
+  background-position: 0 -738px;
+  position: absolute;
+  top: -6px;
+  right: 8px;
+  width: 37px;
+  height: 37px;
+}
+
+#left_play .u_content {
+  margin-top: 45px;
+  clear: both;
+  border: 1px solid #333333;
+  width: 746px;
+  height: 486px;
+}
+
+.u_content .u_activity_types {
+  margin-top: 40px;
+  margin-left: 40px;
+  float: left;
+}
+
+.u_content .u_activity_types .type_1 {
+  width: 310px;
+  height: 150px;
+  background: url(./type_1.jpg) no-repeat;
+}
+
+.u_content .u_activity_types .type_2 {
+  width: 310px;
+  height: 150px;
+  background: url(./type_1.jpg) no-repeat;
+}
+
+.u_content .u_activity_types .type_3 {
+  width: 310px;
+  height: 150px;
+  background: url(./type_1.jpg) no-repeat;
+}
+
+.u_content .u_activity_types .type_4 {
+  width: 310px;
+  height: 150px;
+  background: url(./type_1.jpg) no-repeat;
+}
+
+.u_content .u_activity_types span {
+  display: inline-block;
+  width: 310px;
+  height: 30px;
+  line-height: 30px;
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: center;
+  color: #999999;
+  cursor: pointer;
+}
+
+#right_play {
+  width: 450px;
+  height: 535px;
+  float: left;
+}
+
+.u_left .u_icon.u_icon_version {
+  background-position: -3px -127px;
+}
+
+.u_title .u_right {
+  float: right;
+  color: #ccc;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.u_version .u_content img {
+  margin-top: 100px;
+}
+
+.u_map .u_title {
+  margin-top: 70px;
+}
+
+.u_map .u_left {
+  width: 160px;
+}
+
+.u_icon.u_icon_map {
+  background-position: -3px -169px;
+}
+
+.u_map .u_title .u_right {
+  margin-top: 10px;
+}
+
+.u_map .u_content {
+  clear: both;
+}
+
+.blank {
+  clear: both;
+  width: 20px;
+  height: 10px;
+}
+
+.u_map .u_content ul li {
+  margin-left: 12px;
+  margin-right: 10px;
+  float: left;
+  width: 202px;
+  height: 157px;
+  background-color: #222328;
+}
+
+.u_map .u_content ul li a span {
+  display: block;
+}
+
+.u_map .u_content .u_map_title {
+  line-height: 35px;
+  text-align: center;
+}
+
+#dota2_video {
+  width: 1200px;
+  height: 520px;
+  margin-top: 50px;
+}
+
+#left_video {
+  width: 750px;
+  height: 520px;
+  float: left;
+}
+
+.u_icon.u_icon_vedio {
+  background-position: -3px -212px;
+}
+
+#dota2_video #left_video .u_right {
+  margin-top: 10px;
+}
+
+#dota2_video #left_video .u_content {
+  clear: both;
+}
+
+.u_content .u_tabs .u_tab {
+  display: block;
+  float: left;
+  border: 1px solid #333;
+  border-left-color: transparent;
+  width: 24.7%;
+  padding: 10px 0;
+  line-height: 16px;
+  text-align: center;
+  cursor: pointer;
+  color: #ccc;
+}
+
+.u_content .u_tabs .u_tab:first-child {
+  border-left-color: #333;
+}
+
+.u_content .u_panels {
+  border: 1px solid #333;
+  width: 99.5%;
+  height: 450px;
+}
+
+.u_content .u_panels .u_panel {
+  display: block;
+  /* overflow: hidden; */
+}
+
+.u_panels .u_panel .u_item {
+  display: block;
+  float: left;
+  width: 200px;
+  height: 170px;
+  padding: 15px;
+  margin: 0 0 0 13px;
+  position: relative;
+  /* border: 1px solid blue; */
+}
+
+.u_panels .u_item .u_item_logo {
+  display: block;
+  width: 200px;
+  height: 110px;
+}
+
+.u_panels .u_panel .u_item .u_item_title {
+  line-height: 18px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.u_panel .u_item img {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.u_panels .u_panel .u_item .u_item_time {
+  position: absolute;
+  top: 110px;
+  right: 13px;
+  padding: 0 5px;
+  font-size: 11px;
+  color: #fff;
+  background-color: rgba(3, 4, 12, 0.8);
+}
+
+#right_video {
+  width: 450px;
+  height: 520px;
+  float: left;
+}
+
+.u_icon.u_icon_call {
+  background-position: -3px -253px;
+}
+
+#right_video .u_right {
+  margin-top: 10px;
+}
+
+#right_video .u_content {
+  clear: both;
+  background-color: #15161a;
+  height: 430px;
+  padding: 20px 20px 5px 20px;
+  margin-left: 10px;
+}
+
+#right_video .u_content .u_search .u_inputgrounp {
+  position: relative;
+  float: left;
+  width: 280px;
+}
+
+.u_content .u_search input {
+  width: 100%;
+  height: 35px;
+  padding: 0 10px;
+  border: 1px solid #08080a;
+  background-color: #111214;
+  color: #999;
+  line-height: 35px;
+}
+
+.u_inputgrounp .u_icon {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background: url(./data2.home.icons.png) top center no-repeat;
+}
+
+.u_content .u_search .u_btn_submit {
+  position: absolute;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #f74e4e;
+  top: 0;
+  right: -20px;
+  margin-right: 0;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.u_inputgrounp .u_icon_search {
+  position: absolute;
+  top: 0px;
+  right: -20px;
+  cursor: pointer;
+}
+
+.u_icon.u_icon_search {
+  background-position: 6px -692px;
+}
+
+.u_content .u_search .u_btn_add {
+  display: block;
+  float: left;
+  width: 90px;
+  height: 35px;
+  background-color: #565864;
+  color: #ccc;
+  line-height: 35px;
+  text-align: center;
+  margin-left: 30px;
+  border-radius: 2px;
+}
+
+.u_content .u_question h3 {
+  margin-top: 15px;
+  font-size: 16px;
+  color: #ccc;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #333;
+}
+
+.u_content .u_question .u_lists {
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.u_content .u_question .u_list {
+  display: block;
+}
+
+.u_content .u_question .u_list span {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 36px;
+  color: #ccc;
+}
+
+.u_content .u_question .u_red span {
+  color: #ed4c4c;
+}
+
+.u_lists .u_icon {
+  display: inline-block;
+  background: url(./data2.home.icons.png);
+  width: 10px;
+  height: 10px;
+}
+
+.u_question .u_red .u_icon_dot {
+  background-position: -3px -825px;
+}
+
+.u_icon.u_icon_dot {
+  background-position: -3px -803px;
+}
+
+#footer {
+  margin-top: 100px;
+  width: 1520px;
+  height: 160px;
+  /* background: url(./dot2.main.bg.png); */
+  background-color: #000;
+}
+
+#footer .rel1100 {
+  position: relative;
+  width: 1100px;
+  margin: auto;
+}
+
+.rel1100 .foot_dl {
+  position: absolute;
+  top: 40px;
+}
+
+.foot_dl dt {
+  float: left;
+}
+
+.foot_dl dt a {
+  padding: 0 20px;
+  float: left;
+}
+
+.foot_dl dd {
+  float: right;
+  font-size: 12px;
+  line-height: 1.25em;
+  color: #ccc;
+}
+
+.rel1100 p {
+  position: absolute;
+  top: 85px;
+  left: 230px;
+  line-height: 1.5em;
+  font-size: 12px;
+  color: #333;
+  text-align: center;
+}
