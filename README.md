@@ -1,2 +1,1 @@
-Git is a version control system.
-Git is free software.
+这是一个仿DOTA2官网的静态页面。
